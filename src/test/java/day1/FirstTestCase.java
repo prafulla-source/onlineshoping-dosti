@@ -16,9 +16,13 @@ public class FirstTestCase {
 	public static void main(String[] args) {
 	   //lunch the brower (chrom)	
 		//ChromeDriver driver=new ChromeDriver();
-		WebDriver driver= new ChromeDriver();
-		driver.get("https://www.flipkart.com/");
-		driver.findElement(By.name("q")).sendKeys("mens jeans");
+		//WebDriver driver= new ChromeDriver();
+		//driver.get("https://www.flipkart.com/");
+		//driver.findElement(By.name("q")).sendKeys("mens jeans");
+		
+		System.out.println("my name is prafulla");
+		
+		
 		
 	}
 }
